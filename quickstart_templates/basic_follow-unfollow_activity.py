@@ -32,6 +32,10 @@ session = InstaPy(username=insta_username,
                   headless_browser=False)
 
 with smart_run(session):
+    try:
+      print('Hey')
+    except Exception:
+      print(traceback.format_exc())
     """ Activity flow """
     # general settings
     session.set_relationship_bounds(enabled=True,

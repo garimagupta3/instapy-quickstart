@@ -2,7 +2,7 @@
 # Simple installation script for Linux
 
 echo "Unix InstaPy Setup"
-echo =============================================================================================
+echo ===============================================================================================
 arch=$(getconf LONG_BIT)
 kernel=$(uname)
 echo "Installing depedencies..."
